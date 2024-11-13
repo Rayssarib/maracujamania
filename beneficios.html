@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benefícios</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Corben:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Rochester&display=swap');
+
+@font-face {
+    font-family: "Abril Fatface", serif;
+    src: url(fontes/Abril_Fatface/) format('opentype');
+    src: url(fontes/Caprasimo/Caprasimo-Regular.ttf) format('opentype');
+    src: url(fontes/Bebas_Neue/BebasNeue-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #ffd966;
+    --cor1: #88b04b;
+    --cor2: #5b2c6f;
+    --cor3: #784521;
+    --cor4: #d8ae31;
+
+    --fonte-padrao: 'Bebas Neue';
+    --fonte-destaque: 'Caprasimo';
+    --fonte-android: 'Sans-serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/textura.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding: 2px;
+}
+
+header > h1 {
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 6em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.350);
+}
+
+header > h2 {
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.350);
+    font-size: 1em;
+    text-align: center;
+}
+
+nav > a {
+    color: rgb(249, 246, 246);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #ebc239;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.350);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+article {
+    flex: 3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #784521;
+    color: white;
+}
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 1200px) {
+    header > h1 {
+        font-size: 4em;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        font-size: 0.9em;
+    }
+
+    header > h1 {
+        font-size: 3em;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header > h1 {
+        font-size: 2em;
+    }
+
+    header > h2 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <h1>Benefícios</h1>
+        <h2>Que o maracujá é uma fruta extremamente rica em benefícios, nós sabemos... mas quais são eles?</h2>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+<main>
+    <article>
+    <p>O maracujá é um fruto que tem muitos benefícios para a saúde, como acalmar a ansiedade o estresse ou a insônia, pois possui propriedades antioxidantes, sedativas e ansiolíticas.</p>
+    <p>Essa fruto é rico em flavonoides, vitamina A e vitamina C potássio e magnésio, além de fornecer boas quantidades de fibras, e por isso, ajuda a regular os níveis de açúcar no sangue, melhorar a saúde do coração e promover a perda de peso.</p>
+<br>
+    <h1>Principais Benefícios</h1>
+    <br>
+<p> O maracujá oferece diversos benefícios para a saúde devido aos seus componentes nutricionais e propriedades bioativas. Entre os principais benefícios estão:</p>
+<br>
+<p><strong>1. Redução da ansiedade e do estresse:</strong> 
+    O maracujá ajuda a aliviar a ansiedade e o estresse, pois contém flavonoides como kaempferol e quercetina, que têm efeito calmante ao agir diretamente no sistema nervoso, promovendo sensação de relaxamento.
+</p>
+<br>
+<p><strong>2. Controle e prevenção da diabetes:</strong>  
+    As folhas e a polpa do maracujá são ricas em antioxidantes, como vitamina C, betacaroteno, flavonoides e antocianinas, que protegem as células produtoras de insulina, auxiliando no controle dos níveis de glicose e prevenindo o surgimento da diabetes. A casca do maracujá também é rica em pectina, uma fibra que retarda a absorção de carboidratos, o que mantém o nível de açúcar no sangue mais estável.
+</p>
+<br>
+<p><strong>3. Ajuda no combate à insônia:</strong>
+    As propriedades sedativas leves presentes nas folhas, flores e polpa do maracujá ajudam a relaxar o sistema nervoso central, facilitando o combate à insônia e promovendo um sono mais tranquilo e revigorante.
+</p>
+<br>
+<p><strong>4. Contribui para a perda de peso:</strong>
+    A casca do maracujá contém fibras, como a pectina, que auxiliam na digestão mais lenta dos alimentos, aumentando a sensação de saciedade e, consequentemente, favorecendo a perda de peso. Além disso, suas propriedades calmantes ajudam a controlar a compulsão alimentar.
+ </p>
+<br>
+<p><strong>5. Prevenção de doenças cardíacas:</strong>
+    Rico em antioxidantes, como flavonoides e antocianinas, o maracujá melhora a saúde das artérias e previne doenças crônicas como aterosclerose, infarto, hipertensão e AVC. As fibras da casca e da polpa também contribuem para reduzir a absorção de gorduras no intestino, regulando os níveis de colesterol e triglicerídeos.
+ </p>
+<br>
+<p><strong>6. Regulação da pressão arterial:</strong>
+    O maracujá é pobre em sódio e rico em minerais como potássio e magnésio, que ajudam a relaxar os vasos sanguíneos e a eliminar o excesso de sódio pela urina. Dessa forma, o consumo de maracujá contribui para a redução da pressão arterial, sendo benéfico para quem sofre de hipertensão.
+ </p>
+<br>
+<p><strong>7. Alívio da prisão de ventre:</strong>
+    As fibras presentes no maracujá facilitam a formação do bolo fecal e auxiliam na eliminação das fezes, combatendo a prisão de ventre. A pectina da casca também serve como alimento para as bactérias benéficas do intestino, favorecendo seu bom funcionamento.
+</p>
+<br>
+<p><strong>8. Prevenção da flacidez e envelhecimento precoce:</strong>
+    Com alta concentração de antioxidantes como vitamina C, vitamina A e antocianinas, o maracujá protege as células da pele contra os radicais livres, ajudando a evitar a flacidez e o envelhecimento precoce. Além disso, as fibras presentes na polpa e na casca ajudam a regular a glicemia, prevenindo a formação de produtos de glicação avançada (AGEs), que estão associados à inflamação e à flacidez da pele.
+</p>
+<br>
+<p><strong>9. Aumento de energia:</strong> 
+    O maracujá é uma fonte de carboidratos, vitaminas e minerais, fornecendo energia e melhorando a disposição física e mental. Por isso, é uma ótima escolha para incluir no café da manhã, lanches ou entre as refeições.</p>
+<br>
+<p><strong>10. Prevenção do câncer:</strong>
+    Rico em antioxidantes como vitamina C, betacaroteno, flavonoides e antocianinas, o maracujá possui propriedades que combatem o desenvolvimento do câncer ao reduzir a formação de radicais livres que danificam as células.</p>
+<br>
+    <h2>Tabela de Informação Nutricional</h2>
+<table>
+    <tr>
+        <th>Componente</th>
+        <th>Porção (100g)</th>
+    </tr>
+    <tr>
+        <td>Calorias</td>
+        <td>97 kcal</td>
+    </tr>
+    <tr>
+        <td>Carboidratos</td>
+        <td>23.4 g</td>
+    </tr>
+    <tr>
+        <td>Fibras</td>
+        <td>10.4 g</td>
+    </tr>
+    <tr>
+        <td>Vitamina A</td>
+        <td>1274 IU</td>
+    </tr>
+    <tr>
+        <td>Vitamina C</td>
+        <td>30 mg</td>
+    </tr>
+    <tr>
+        <td>Caroteno</td>
+        <td>0.12 mg</td>
+    </tr>
+    <tr>
+        <td>Magnésio</td>
+        <td>29 mg</td>
+    </tr>
+    <tr>
+        <td>Potássio</td>
+        <td>348 mg</td>
+    </tr>
+    <tr>
+        <td>Vitamina B2</td>
+        <td>0.13 mg</td>
+    </tr>
+</table>
+<br>
+    <ul>
+            <li>
+                <strong>Alcaloides indólicos:</strong> Esses compostos podem ter propriedades sedativas e calmantes, contribuindo para efeitos relaxantes no sistema nervoso.
+            </li>
+            <li>
+                <strong>Flavonoides glicosilados:</strong> Os flavonoides possuem propriedades antioxidantes, que ajudam a combater os radicais livres no corpo, contribuindo para a saúde celular e cardiovascular.
+            </li>
+            <li>
+                <strong>Compostos cianogênicos:</strong> Embora em geral a presença de compostos cianogênicos seja indesejada, em pequenas quantidades, podem ter propriedades antimicrobianas, ajudando na defesa da planta contra patógenos.
+            </li>
+            <li>
+                <strong>Fração de Esteroides:</strong> Esteroides podem ter efeitos anti-inflamatórios e contribuir para a regulação de processos fisiológicos no organismo.
+    </li>
+    <li>
+        <strong>Taninos:</strong> Os taninos têm propriedades adstringentes e antioxidantes. Eles podem auxiliar na saúde gastrointestinal, ajudando na proteção contra inflamações e na regulação do trato digestivo.
+    </li>
+</ul>
+
+    </article>
+</main>
+    </header>
+</body>
+<footer>
+    <p>&copy; Maracujá Mania. Todos os direitos reservados.</p>
+</footer>
+</html>

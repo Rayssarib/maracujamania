@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobremesas</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Corben:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Rochester&display=swap');
+
+@font-face {
+    font-family: "Abril Fatface", serif;;
+    src: url(fontes/Abril_Fatface/) format('opentype');
+    src: url(fontes/Caprasimo/Caprasimo-Regular.ttf) format('opentype');
+    src: url(fontes/Bebas_Neue/BebasNeue-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+:root {
+    --cor0: #ffd966;
+    --cor1: #88b04b;
+    --cor2: #5b2c6f;
+    --cor3: #784521;
+    --cor4: #d8ae31;
+
+    --fonte-padrao: 'Bebas Neue';
+    --fonte-destaque: 'Caprasimo';
+    --fonte-android: 'Sans-serif';
+}
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding: 2px;
+}
+
+header > h1{
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 6em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.350);
+}
+nav{
+    display: flex;
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.350);
+    font-size: 1em;
+    text-align: center ;
+}
+
+nav > a{
+    color: rgb(249, 246, 246);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5 ;
+}
+
+nav >a:hover {
+    background-color: var(--cor4);
+}
+
+body{
+    background-image: url(imagens/textura.jpg);
+    background-blend-mode: multiply; 
+    background-size: contain;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color:#ebc239 ;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.350);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article {
+    flex: 3;
+}
+.recipe {
+    border: 1px solid #784521;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #784521;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #784521;
+    color: white; 
+}
+</style>
+<body>
+    <header>
+        <h1>Sobremesas</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+<main>
+    <article>
+<div class="container">
+    <div class="recipe">
+        <h2>Mousse de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco concentrado de maracujá</li>
+            <li>Polpa de 1 maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Bata o leite condensado, o creme de leite e o suco de maracujá no liquidificador até obter uma mistura homogênea. Coloque em taças ou uma travessa e leve à geladeira por 2 horas. Decore com a polpa antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Bolo de Maracujá Simples</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>3 ovos</li>
+            <li>1 e 1/2 xícaras de chá de açúcar</li>
+            <li>1/2 xícara de chá de óleo</li>
+            <li>1 xícara de chá de suco de maracujá</li>
+            <li>2 xícaras de chá de farinha de trigo</li>
+            <li>1 colher de sopa de fermento em pó</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Preaqueça o forno a 180°C. Em uma tigela, bata os ovos e o açúcar até obter uma mistura clara e fofa. Adicione o óleo e o suco de maracujá e misture bem. Aos poucos, adicione a farinha e o fermento, misturando até incorporar. Coloque a massa em uma forma untada e leve ao forno por 35-40 minutos.</p>
+    </div>
+        <div class="recipe">
+        <h2>Bolo Gelado de Maracujá com Recheio e Cobertura</h2>
+        <h3>Ingredientes do Bolo:</h3>
+        <ul>
+            <li>3 ovos</li>
+            <li>1 e 1/2 xícaras de chá de açúcar</li>
+            <li>1/2 xícara de chá de óleo</li>
+            <li>1 xícara de chá de suco de maracujá</li>
+            <li>2 xícaras de chá de farinha de trigo</li>
+            <li>1 colher de sopa de fermento</li>
+        </ul>
+        <h3>Ingredientes do Recheio e Cobertura:</h3>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>1/2 xícara de chá de suco de maracujá</li>
+            <li>1 lata de creme de leite</li>
+            <li>Polpa de 1 maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Prepare o bolo como na receita anterior. Após assar, deixe esfriar e corte ao meio. Misture o leite condensado e o suco de maracujá, reservando metade para a cobertura. Monte o bolo, cubra com o restante do creme e leve à geladeira. Decore com a polpa antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Torta Mousse de Maracujá</h2>
+        <h3>Ingredientes da Massa:</h3>
+        <ul>
+            <li>200 g de biscoito maisena</li>
+            <li>100 g de manteiga derretida</li>
+        </ul>
+        <h3>Ingredientes do Recheio:</h3>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>1 lata de creme de leite</li>
+            <li>1 xícara de chá de suco concentrado de maracujá</li>
+        </ul>
+        <h3>Ingredientes da Cobertura:</h3>
+        <ul>
+            <li>1/2 xícara de chá de polpa de maracujá</li>
+            <li>1/4 xícara de chá de açúcar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>
+            Triture o biscoito até virar uma farofa e misture com a manteiga. Forre o fundo de uma forma com essa mistura e leve à geladeira.
+            Para o recheio, bata o leite condensado, o creme de leite e o suco de maracujá até ficar cremoso. Coloque sobre a massa e leve à geladeira por 2 horas.
+            Para a cobertura, misture a polpa de maracujá, o açúcar e cozinhe até engrossar. Deixe esfriar e despeje sobre a torta antes de servir.
+        </p>
+    </div>
+        <div class="recipe">
+        <h2>Cheesecake de Maracujá</h2>
+        <h3>Ingredientes da Base:</h3>
+        <ul>
+            <li>200 g de biscoito maisena</li>
+            <li>100 g de manteiga derretida</li>
+        </ul>
+        <h3>Ingredientes do Recheio:</h3>
+        <ul>
+            <li>300 g de cream cheese</li>
+            <li>1 lata de leite condensado</li>
+            <li>1 xícara de chá de suco concentrado de maracujá</li>
+            <li>1 colher de sopa de gelatina incolor (dissolvida conforme instruções)</li>
+        </ul>
+        <h3>Ingredientes da Cobertura:</h3>
+        <ul>
+            <li>1/2 xícara de chá de polpa de maracujá</li>
+            <li>1/4 xícara de chá de açúcar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>
+            Triture o biscoito, misture com a manteiga e forre uma forma de aro removível. Leve à geladeira.
+            Para o recheio, bata o cream cheese com o leite condensado e o suco de maracujá até ficar homogêneo. Adicione a gelatina incolor dissolvida e misture bem. Coloque o recheio sobre a base e leve à geladeira por 4 horas.
+            Para a cobertura, misture a polpa de maracujá e o açúcar e cozinhe até engrossar. Deixe esfriar e espalhe sobre a cheesecake antes de servir.
+        </p>
+    </div>
+        <div class="recipe">
+        <h2>Pavê de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 pacote de biscoito champagne</li>
+            <li>Leite para umedecer os biscoitos</li>
+            <li>Polpa de 1 maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Misture o leite condensado, o creme de leite e o suco de maracujá até formar um creme homogêneo. Umedeça os biscoitos no leite e faça camadas em um refratário: uma de biscoitos e outra de creme, repetindo até terminar. Decore com a polpa de maracujá e leve à geladeira por pelo menos 2 horas antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Pudim de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 envelope de gelatina incolor (12 g), dissolvida conforme instruções</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá. Acrescente a gelatina dissolvida e bata mais um pouco. Despeje em uma forma de pudim e leve à geladeira por 4 horas ou até firmar. Desenforme antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Brigadeiro de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1/2 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 colher de sopa de manteiga</li>
+            <li>Açúcar cristal para enrolar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Em uma panela, misture o leite condensado, o suco de maracujá e a manteiga. Cozinhe em fogo baixo, mexendo sempre, até que o brigadeiro comece a desgrudar do fundo da panela. Deixe esfriar, enrole e passe no açúcar cristal.</p>
+    </div>
+        <div class="recipe">
+        <h2>Trufa de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>200 g de chocolate branco</li>
+            <li>1/3 de xícara de chá de suco de maracujá concentrado</li>
+            <li>1 colher de sopa de creme de leite</li>
+            <li>Chocolate ao leite ou amargo para cobrir (opcional)</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Derreta o chocolate branco em banho-maria ou no micro-ondas. Misture o suco de maracujá e o creme de leite até ficar homogêneo. Deixe esfriar até firmar o suficiente para enrolar. Modele as trufas e, se desejar, cubra com chocolate ao leite ou amargo derretido.</p>
+    </div>
+        <div class="recipe">
+        <h2>Sorvete de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá até obter uma mistura homogênea. Despeje em um recipiente e leve ao congelador por pelo menos 4 horas, mexendo a cada hora para evitar cristais de gelo. Sirva gelado.</p>
+    </div>
+        <div class="recipe">
+        <h2>Crumble de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 xícara de chá de polpa de maracujá</li>
+            <li>1/4 de xícara de chá de açúcar</li>
+            <li>1/2 xícara de chá de farinha de trigo</li>
+            <li>1/2 xícara de chá de açúcar mascavo</li>
+            <li>1/4 de xícara de chá de manteiga gelada em cubos</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Em uma tigela, misture a polpa de maracujá e o açúcar. Em outra tigela, misture a farinha, o açúcar mascavo e a manteiga, formando uma farofa. Coloque a polpa de maracujá em uma forma e cubra com a farofa. Asse em forno preaquecido a 180°C por cerca de 20 minutos ou até dourar. Sirva quente.</p>
+    </div>
+        <div class="recipe">
+        <h2>Picolé de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>Forminhas para picolé</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá. Despeje a mistura nas forminhas e leve ao freezer por 4 horas ou até firmar.</p>
+    </div>
+        <div class="recipe">
+        <h2>Gelatina de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 pacote de gelatina sabor maracujá</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 xícara de chá de água quente</li>
+            <li>1 xícara de chá de água fria</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Dissolva a gelatina na água quente, misture a água fria e o suco de maracujá. Coloque em uma travessa ou em taças individuais e leve à geladeira por 2 horas ou até firmar.</p>
+    </div>
+        <div class="recipe">
+        <h2>Creme de Maracujá com Chocolate</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>100 g de chocolate meio amargo derretido</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Misture o leite condensado, o creme de leite e o suco de maracujá até obter um creme homogêneo. Em taças, alterne camadas de creme de maracujá e de chocolate derretido. Leve à geladeira por 2 horas antes de servir.</p>
+    </div>
+        <div class="recipe"><
+        <h2>Flan de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 envelope de gelatina incolor (12 g), dissolvida conforme instruções</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá. Acrescente a gelatina dissolvida e bata mais um pouco. Coloque em uma forma untada e leve à geladeira por 4 horas ou até firmar. Desenforme antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Panna Cotta de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>500 ml de creme de leite fresco</li>
+            <li>1/2 xícara de chá de açúcar</li>
+            <li>1 colher de chá de essência de baunilha</li>
+            <li>1 envelope de gelatina incolor (12 g), dissolvida conforme instruções</li>
+            <li>1/2 xícara de chá de suco de maracujá concentrado</li>
+            <li>Polpa de 1 maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Em uma panela, aqueça o creme de leite, o açúcar e a baunilha, sem ferver. Acrescente a gelatina dissolvida e misture bem. Coloque metade do suco de maracujá e mexa. Despeje em formas individuais e leve à geladeira por 4 horas. Decore com a polpa de maracujá antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Creme Brûlée de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>500 ml de creme de leite fresco</li>
+            <li>1/2 xícara de chá de açúcar</li>
+            <li>4 gemas</li>
+            <li>1/4 de xícara de chá de suco de maracujá concentrado</li>
+            <li>Açúcar para caramelizar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Preaqueça o forno a 150°C. Em uma tigela, bata as gemas com o açúcar até ficarem claras. Aqueça o creme de leite e o suco de maracujá em uma panela, sem ferver. Despeje sobre as gemas, mexendo bem. Coloque em ramequins e asse em banho-maria por 40 minutos. Deixe esfriar e, antes de servir, polvilhe açúcar e caramelize com um maçarico.</p>
+    </div>
+        <div class="recipe">
+        <h2>Cocada Cremosa de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 xícara de chá de coco ralado</li>
+            <li>1/2 xícara de chá de suco de maracujá concentrado</li>
+            <li>1 colher de sopa de manteiga</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Em uma panela, misture o leite condensado, o coco, o suco de maracujá e a manteiga. Cozinhe em fogo baixo, mexendo sempre, até engrossar e soltar do fundo da panela. Coloque em potinhos e leve à geladeira antes de servir.</p>
+    </div>
+    <div class="recipe">
+        <h2>Cupcake de Maracujá com Cobertura de Maracujá</h2>
+        <h3>Ingredientes para a Massa:</h3>
+        <ul>
+            <li>2 ovos</li>
+            <li>1/2 xícara de chá de açúcar</li>
+            <li>1/4 de xícara de chá de óleo</li>
+            <li>1/2 xícara de chá de suco de maracujá</li>
+            <li>1 xícara de chá de farinha de trigo</li>
+            <li>1 colher de chá de fermento em pó</li>
+        </ul>
+        <h3>Ingredientes para a Cobertura:</h3>
+        <ul>
+            <li>1/2 lata de leite condensado</li>
+            <li>1/4 de xícara de chá de suco de maracujá</li>
+            <li>Polpa de 1 maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Para a massa, bata os ovos com o açúcar até ficarem claros. Adicione o óleo e o suco de maracujá, e misture. Acrescente a farinha e o fermento, mexendo até ficar homogêneo. Coloque a massa em forminhas e asse em forno preaquecido a 180°C por 20 minutos. Para a cobertura, misture o leite condensado e o suco de maracujá. Cubra os cupcakes e decore com a polpa.</p>
+    </div>
+        <div class="recipe">
+        <h2>Bombom de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>200 g de chocolate ao leite ou meio amargo para cobertura</li>
+            <li>1/2 lata de leite condensado (197 g)</li>
+            <li>1/4 de xícara de chá de suco de maracujá concentrado</li>
+            <li>1 colher de sopa de creme de leite</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Derreta o chocolate e pincele em forminhas de bombom, formando uma camada. Leve à geladeira para firmar. Para o recheio, misture o leite condensado, o suco de maracujá e o creme de leite. Preencha os bombons com o recheio e cubra com mais chocolate derretido. Leve à geladeira para finalizar.</p>
+    </div>
+        <div class="recipe">
+        <h2>Compota de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 xícara de chá de polpa de maracujá</li>
+            <li>1/2 xícara de chá de açúcar</li>
+            <li>1/2 xícara de chá de água</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Em uma panela, misture a polpa de maracujá, o açúcar e a água. Leve ao fogo médio, mexendo ocasionalmente, até a mistura engrossar e formar uma calda. Coloque em um pote esterilizado e deixe esfriar. Sirva como acompanhamento para bolos, tortas ou sorvetes.</p>
+    </div>
+    <div class="recipe">
+        <h2>Petit Gâteau de Maracujá</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>100 g de chocolate branco</li>
+            <li>1/4 de xícara de chá de manteiga</li>
+            <li>1/2 xícara de chá de açúcar</li>
+            <li>2 ovos</li>
+            <li>1/4 de xícara de chá de suco de maracujá concentrado</li>
+            <li>1/2 xícara de chá de farinha de trigo</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Derreta o chocolate e a manteiga em banho-maria. Em uma tigela, bata o açúcar com os ovos até obter um creme claro. Adicione o suco de maracujá e misture. Acrescente a farinha e misture até ficar homogêneo. Divida em forminhas untadas e leve ao forno preaquecido a 200°C por cerca de 7-10 minutos. Sirva quente.</p>
+    </div>
+    <div class="recipe">
+        <h2>Chantilly de Maracujá (para acompanhamento)</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>200 ml de creme de leite fresco</li>
+            <li>2 colheres de sopa de açúcar</li>
+            <li>2 colheres de sopa de suco de maracujá concentrado</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Bata o creme de leite com o açúcar até formar picos firmes. Adicione o suco de maracujá e misture delicadamente. Utilize para acompanhar bolos, tortas e sobremesas.</p>
+    </div>
+        <div class="recipe">
+        <h2>Creme Gelado de Maracujá com Chantilly</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado (395 g)</li>
+            <li>1 lata de creme de leite (300 g)</li>
+            <li>1 xícara de chá de suco de maracujá concentrado</li>
+            <li>200 ml de chantilly pronto</li>
+            <li>Polpa de maracujá para decorar</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Bata no liquidificador o leite condensado, o creme de leite e o suco de maracujá até formar um creme. Despeje em taças e leve à geladeira por 2 horas. Decore com chantilly e a polpa de maracujá antes de servir.</p>
+    </div>
+        <div class="recipe">
+        <h2>Brownie com Calda de Maracujá</h2>
+        <h3>Ingredientes para o Brownie:</h3>
+        <ul>
+            <li>200 g de chocolate meio amargo</li>
+            <li>100 g de manteiga</li>
+            <li>1 xícara de chá de açúcar</li>
+            <li>3 ovos</li>
+            <li>1/2 xícara de chá de farinha de trigo</li>
+        </ul>
+        <h3>Ingredientes para a Calda de Maracujá:</h3>
+        <ul>
+            <li>1/2 xícara de chá de polpa de maracujá</li>
+            <li>1/4 de xícara de chá de açúcar</li>
+            <li>1/4 de xícara de chá de água</li>
+        </ul>
+        <h3>Modo de Preparo:</h3>
+        <p>Para o brownie, derreta o chocolate com a manteiga. Misture o açúcar e os ovos, um a um. Adicione a farinha e mexa até ficar homogêneo. Despeje em uma forma untada e asse em forno preaquecido a 180°C por 25 minutos. Para a calda, misture a polpa de maracujá, o açúcar e a água em uma panela. Cozinhe até engrossar. Sirva o brownie com a calda.</p>
+    </div>
+    </article>
+</main>
+<footer>
+    <p>&copy; Maracujá Mania. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
